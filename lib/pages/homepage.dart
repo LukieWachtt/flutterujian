@@ -21,10 +21,10 @@ class HomePage extends StatelessWidget {
           children: [
             Text(
               'Daftarkan diri anda di sekolah ADN Boarding School',
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 20,
+              height: 50,
             ),
             ElevatedButton(
                 onPressed: () {

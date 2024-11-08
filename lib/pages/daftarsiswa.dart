@@ -19,13 +19,13 @@ class Daftarsiswa extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return Container(
             height: 50,
-            color: Colors.blue,
+            color: Colors.grey,
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 5),
-                  child: Text('Lukman', style: TextStyle(color: Colors.white),),
+                  child: Text('Lukman', style: TextStyle(color: Colors.black),),
                 ),
               ],
             ),
